@@ -98,4 +98,25 @@ public class MainActivity extends Activity {
             listAdapter.notifyDataSetChanged();
         }
     }
+    
+    /*public ParkingEntity withinParkingLot(ArrayList<Lot> lots) {
+        
+        //parkingLot.location
+        //currentLocation
+        //parkingLot.radius
+        
+        for (int x = 0; x < lots.size; x++) {
+            lot = lots.get(x);
+            
+            if (currentLocation isWithin (radius of parkingLot)) {
+              return lot;
+            }
+            else {
+              continue;
+            }
+        }
+     
+        return null;
+    }*/
+        
 }
