@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "999293817886",
+    "firebase_url": "https://parkingapp-a38c6.firebaseio.com",
+    "project_id": "parkingapp-a38c6",
+    "storage_bucket": "parkingapp-a38c6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:999293817886:android:151f2659d2eed8e8",
+        "android_client_info": {
+          "package_name": "com.cocomelo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "999293817886-5s2dcruoj2lan3u8p7sgmh469uder0bq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cocomelo",
+            "certificate_hash": "e3f6909529c1c6e5a41962c44ee49e9b3340ce55"
+          }
+        },
+        {
+          "client_id": "999293817886-2eo26dhi8fcg51jmgprj9759n9hu8poh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyMJz6XRddpnhv1gUsqyODpor498e99Y8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "999293817886-2eo26dhi8fcg51jmgprj9759n9hu8poh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

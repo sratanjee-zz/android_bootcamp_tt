@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:background="@color/button_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:textSize="22sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@android:color/white"
+            android:gravity="center_vertical"/>
+    </android.support.v7.widget.Toolbar>
+
+    <Button
+        android:id="@+id/leaving_button"
+        android:background="@color/button_color"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="35dp"
+        android:layout_alignParentBottom="true"
+        android:textSize="16sp"
+        android:textColor="#ffffff"
+        android:layout_marginRight="15dp"
+        android:text="Leaving Carpark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/find_car_button"
+        android:layout_above="@id/leaving_button"
+        android:background="@color/button_color"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="35dp"
+        android:textSize="16sp"
+        android:textColor="#ffffff"
+        android:layout_marginRight="15dp"
+        android:text="Find My Car"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/parking_here_button"
+        android:layout_above="@id/find_car_button"
+        android:background="@color/button_color"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="35dp"
+        android:textSize="16sp"
+        android:textColor="#ffffff"
+        android:layout_marginRight="15dp"
+        android:text="I Am Parking Here"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@id/toolbar"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_above="@id/parking_here_button"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="30dp"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>
